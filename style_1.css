@@ -1,6 +1,6 @@
 body{
- 
-    margin:0px
+    margin:0px; 
+    background-color: lightblue;
 }
 header{
     background-color: black;
@@ -8,12 +8,11 @@ header{
     height:150px;
     text-align: left;
    clear:both;
-   margin-top: -16px;
-   margin-left: -10px;
+   margin-top: -26px;
+  
 }
-html{
-    background-color: lightblue;
-}
+
+
 header >h1{
     align-items: center;
     display: flex;
@@ -32,12 +31,18 @@ img{
    display: block;
 }
 
-ul{
+.submenu{
 list-style: none;
 background-color: red;
 height:40px;
 margin-bottom: 25px;
+display:none
 }
+.main_title:hover + .submenu {
+    display: block; 
+}
+.menu-container:hover .submenu {
+    display: block;}
 li{display: inline;
 font-size: 25px;
 margin:20px;
