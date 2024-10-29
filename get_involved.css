@@ -1,5 +1,7 @@
 body{
     background-color: lightblue;
+    padding:0px;
+    margin:0px
 }
 img {
 width: 150px;
@@ -32,7 +34,7 @@ h1 {
 
 
 footer{
-    margin-top:320px;
+    margin-top:20px;
     width: 100%;         
     color: white;
     padding-left:20px;

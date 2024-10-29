@@ -1,11 +1,15 @@
 body{
     background-color: lightblue;
+    padding:0px;
+    margin:0px
 }
 img {
 width: 150px;
 height:118px;
 border-radius: 25px;
-display: block;}
+display: block;
+box-shadow: 4px 4px 4px  rgba(177, 5, 5, 0.924);
+}
 header {
     background-color: black;
     height:115px;
@@ -35,9 +39,10 @@ footer{
     width: 100%;         
     color: white;
     padding-left:20px;
-    height:250px;
+    height:260px;
     background-color: black;
-    margin-top: 315px;
+    margin-top: 50px;
+    padding-bottom: 20px;
 }
 footer h1, h2,h3,h4,h5,h6{
     color:white
@@ -46,10 +51,10 @@ footer img{
     width:80px;
     height:100px;
     float:left;
-margin-top: -45px;
+margin-bottom: 20px;
 margin-left: -25px;}
 
-article header{
+.turtle{
     background: url(turtle.jpeg) no-repeat;
     background-size:100% 100% ;
     width:102%;
@@ -58,5 +63,7 @@ article header{
     border: 2pt solid black;
     margin-left: -10px;
 }
-
+.donators{
+    font-size: 15pt;
+}
     
