@@ -1,3 +1,7 @@
+body{
+ 
+    margin:0px
+}
 header{
     background-color: black;
     width:110%; 
@@ -25,6 +29,7 @@ img{
    margin-top: -35px;
    margin-right: 50px;
    height:185px;
+   display: block;
 }
 
 ul{
@@ -48,7 +53,6 @@ footer{
     color: white;
     padding-left:20px;
     height:250px;
-    margin-left: -25px;
     margin-top: 515px;
 }
 footer h1, h2,h3,h4,h5,h6{
