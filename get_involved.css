@@ -52,15 +52,15 @@ footer img{
 margin-left: -25px;
 }
 
-.seal {
-    background: url(seal.jpg) no-repeat;
+.baby_otter {
+    background: url(baby_otter.jpeg) no-repeat;
     background-size:100% 100% ;
     width: 100%;
-    height: 150px;
+    height: 180px;
     padding: 15px;
     border: 2pt solid black;
 }
-.seal p{
+.baby_otter p{
     text-shadow: 2px 3px 1px black;
     color: white;
     font-size: 20pt;
