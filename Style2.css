@@ -1,0 +1,105 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+    color: white;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    height: 200px;
+}
+header img{
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+
+header h1{
+    font-size: 2.5em;
+    margin: 0;
+    color: white;
+}
+
+header ul{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    border: 2px solid transparent;
+}
+
+header a:hover{
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+header ul li{
+    display: inline;
+    margin-right: 20px;
+    font-size: 1.2em;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a img{
+    width: 50px;
+    margin-top: 10px;
+}
+footer p{
+    margin: 5px
+}
+a{
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+article{
+    background-color: lightblue;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+
+.hover_info {
+    display: none; 
+    position: absolute;
+    color:white;
+    margin-left: 233px; 
+}
+
+
+
+.ways_to_give:hover .hover_info
+ {
+    display: block;
+}
+
+
+.contact_hover{
+    display: none; 
+    position: absolute;
+    color:white;
+    margin-left: 480px; 
+}
+
+
+
+.contact_insta:hover .contact_hover
+ {
+    display: block;
+}
