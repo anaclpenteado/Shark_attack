@@ -1,69 +1,132 @@
 body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
     background-color: lightblue;
-    padding:0px;
-    margin:0px
+    color: rgb(255, 255, 255);
 }
-img {
-width: 150px;
-height:118px;
-border-radius: 25px;
-display: block;
-box-shadow: 4px 4px 4px  rgba(177, 5, 5, 0.924);;}
-header {
-    background-color: black;
-    height:115px;
+h1, h2, p{
+    margin: 0;
+    padding: 10px 0;
 }
-.cover{
-    width:100%;
-    margin-right: -35px;
-    margin-top:-15px ;
-}
-h1 {
+header{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
     text-align: center;
-    margin-top: -80px;
     color: white;
-   
+    height: 200px;
 }
-
-.seal p{
+header img{
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+header h1{
+    font-size: 2.5em;
+    margin-top: 20px;
     color: white;
-    text-wrap: wrap;
-    font-size: 20pt;
-    margin-top: -15px;
 }
-
-
+article{
+    background-color: rgba(255, 255, 255, 0.445);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+article h2{
+    font-size: 2em;
+    color: white;
+}
+article ol{
+    margin-left: 20px;
+}
+article ol li{
+    margin-bottom: 15px;
+}
+article ul{
+    margin-left: 20px;
+}
+article ul li{
+    margin-bottom: 10px;
+}
 footer{
-    margin-top:20px;
-    width: 100%;         
+    background-color:  rgba(255, 255, 255, 0.445);
     color: white;
-    padding-left:20px;
-    height:250px;
-    background-color: black;
-    margin-right: -150px
+    padding: 20px;
+    text-align: center;
 }
-footer h1, h2,h3,h4,h5,h6{
-    color:white
-}
-footer img{
-    width:80px;
-    height:100px;
-    float:left;
-margin-left: -25px;
+footer p {
+    margin: 5px;
 }
 
-.baby_otter {
-    background: url(baby_otter.jpeg) no-repeat;
-    background-size:100% 100% ;
-    width: 100%;
-    height: 180px;
-    padding: 15px;
-    border: 2pt solid black;
+
+footer a {
+    color: #FFFFFF; /* White */
+    text-decoration: none;
 }
-.baby_otter p{
-    text-shadow: 2px 3px 1px black;
-    color: white;
-    font-size: 20pt;
+
+
+footer a img {
+    width: 50px;
+    margin-top: 10px;
+}
+a {
+    color: #007BFF; /* Blue */
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: #FF0000; /* Red */
+    text-decoration: underline;
+}
+@media screen and (max-width: 768px) {
+    header img {
+        width: 250px;
+        height: 150px;
+    }
+
+
+    header h1 {
+        font-size: 2em;
+    }
+
+
+    article {
+        padding: 15px;
+        margin: 10px;
+    }
+
+
+    footer p, footer a {
+        font-size: 0.9em;
+    }
+}
+.dropdown_menu {
+    display: none;
+}
+
+
+.dropdown_menu2 {
+    display: none;
+}
+
+
+.menu-container ul li:hover .dropdown_menu2 {
+    display: block;
+    margin-left: 205px;
+    margin-bottom: 8px;
+    position: absolute;
+}
+
+
+.menu-container ul li:hover .dropdown_menu {
+    display: block;
+    margin-left: 495px;
+    margin-bottom: 8px;
 }
 
     
