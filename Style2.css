@@ -75,8 +75,9 @@ header ul li{
 
 .menu-container ul li:hover .dropdown_menu{
     display:block;
-   margin-left:495px;
+   margin-left:0px;
     margin-bottom: 8px;
+    position:absolute;
 }
 
 /* Footer Styling */
