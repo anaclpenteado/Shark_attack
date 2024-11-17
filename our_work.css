@@ -31,6 +31,26 @@ margin-left: -25px;}
         color: white;
        
     }
+
+.dropdown_menu{
+    display:none
+}
+
+.dropdown_menu2{
+    display:none
+}
+
+.menu-container ul li:hover .dropdown_menu2{
+    display:block;
+    margin-bottom: 8px;
+    position:absolute;
+}
+
+.menu-container ul li:hover .dropdown_menu{
+    display:block;
+    margin-left:495px;
+    margin-bottom: 8px;
+}
     
     .seal p{
         color: white;
