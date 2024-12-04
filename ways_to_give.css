@@ -29,6 +29,12 @@ header {
     z-index: 1;
 }
 
+header img {
+    width: 150px;
+    display: block;
+    margin: 0 auto 15px;
+}
+
 header ul {
     list-style: none;
     display: flex;
@@ -80,11 +86,11 @@ header a:hover{
     margin-right: 15px;
     margin-top:-15px;
 }
-h1 {
+
+h1{
+    color: rgb(209, 4, 4);
     text-align: center;
     margin-top: -80px;
-    color: rgb(209, 4, 4);
-   
 }
 
 .turtle p{
@@ -124,9 +130,6 @@ footer {
     max-width: 900px;
 } 
 
-footer h1, h2,h3,h4,h5,h6{
-    color:white
-}
 footer img{
     width: 50px;
     height:100px;
@@ -135,6 +138,11 @@ footer img{
     margin-bottom: 20px;
     margin-left: -25px;
 }
+
+footer a img{
+    width: 50px;
+    margin-top: 10px;
+ }
 
 footer a{
     color: rgb(209, 4, 4)
