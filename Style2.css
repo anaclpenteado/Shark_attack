@@ -1,4 +1,4 @@
-/* General Styling */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -20,10 +20,10 @@ header {
     z-index: 1;
 }
 
-header img{
-    width: 300px;
-    height: 200px;
-    text-align: center;
+header img {
+    width: 150px;
+    display: block;
+    margin: 0 auto 15px;
 }
 
 header h1{
