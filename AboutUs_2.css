@@ -83,6 +83,7 @@ header ul {
     padding: 0;
 }
 
+
 header a {
     color: rgb(209, 4, 4);
     text-decoration: none;
@@ -100,6 +101,26 @@ header a:hover{
     color: rgb(209, 4, 4);
     border-bottom: 2px solid rgb(209, 4, 4);
  }
+ .dropdown_menu{
+    display:none
+}
+.dropdown_menu2{
+    display:none
+}
+
+.menu-container ul li:hover .dropdown_menu2{
+    display:block;
+    margin-bottom: 8px;
+    position:absolute;
+}
+
+.menu-container ul li:hover .dropdown_menu{
+    display:block;
+   margin-left:0px;
+    margin-bottom: 8px;
+    position:absolute;
+}
+
     
     /* Paragraph Styling */
     article p {
@@ -157,10 +178,42 @@ footer a{
 }
 
 footer a img{
-    width: 50px;
-    margin-top: 10px;
+    width:  50px;
+    margin-top: -15px;
+    position: absolute;
+    margin-left: -15px;
  }
  footer p{
     margin: 10px 0;
  }
     
+    .camron > img{
+        height:150px;
+        border-style: solid;
+        border-color: black
+    }
+    .Ana > img{
+        height:150px;
+        margin-top:15px;
+        border-style: solid;
+        border-color: black
+    }
+    .Riley > img{
+        height:150px;
+        margin-top: 50px;
+        border-style: solid;
+        border-color: black
+    }
+    
+    .Riley_text{
+        margin-left: 25px;
+    }
+    .Camron_text{
+        margin-left: 25px;
+    }
+    .Ana_text{
+        margin-left: 25px;
+    }
+    .pictures img{
+        border-radius: 15%;
+    }
