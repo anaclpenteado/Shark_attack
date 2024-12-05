@@ -76,6 +76,9 @@ form.container{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: left;
+    float: left;
+    box-sizing: border-box; 
+    margin: 10px; 
 }
 
 legend{
@@ -150,7 +153,17 @@ footer a img:hover {
 }
 
 .button{ 
-    text-align: left;
+    text-align: center;
     padding: 4px;
     margin: 4px;
+}
+
+.submenu ul{
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
 }
