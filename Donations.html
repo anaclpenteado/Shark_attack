@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Donation screen</title>
+    <title>Donation Screen</title>
     <link rel="stylesheet" href="Donations.css">
     <script src="donations.js"></script>
 </head>
@@ -47,6 +47,7 @@
         </div>
         <br>
 
+        <div class="text">
         <p> Thank you for visiting our page and considering a donation to support our company. Your generosity and
             commitment mean so much to us, as each contribution helps us continue the work we’re passionate about and
             make a
@@ -57,6 +58,7 @@
             support inspires us to keep moving forward, and together, we can make a lasting impact. Thank you for being
             part
             of this journey with us. </p>
+        </div>
         <br>
         <form>
             <div class="donationbox">
@@ -66,11 +68,11 @@
                     <fieldset>
                         <label> Email address </label>
                         <input type="email" id=mail required>
-                        <br> <label> Firstname</label>
+                        <br> <label> First Name</label>
                         <input type="text" id=fname required>
-                        <br> <label> Lastname</label>
+                        <br> <label> Last Name</label>
                         <input type="text" id=lname required>
-                        <br> <label> street address</label>
+                        <br> <label> Street Address</label>
                         <input type="text" id=street required>
                         <br> <label> City</label>
                         <input type="text" id=city required>
@@ -189,8 +191,8 @@
                 </select>
             </div>
             <div>
+                <label for="mailCB">Click me to get updates to our new events/accomplishments! </label>
                 <input name="mailMe" id="mailCB" value="yes" type="checkbox" />
-                <label for="mailCB">Click me to get updates to our new events/accomplishments</label>
             </div>
             <button type="submit" onclick="donationnumber(); validateEmail()">Donate</button>
 
