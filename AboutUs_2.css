@@ -171,6 +171,7 @@ footer {
     margin: 20px auto;
     width: 90%;
     max-width: 900px;
+    color: black;
 } 
 
 footer a{
@@ -178,10 +179,8 @@ footer a{
 }
 
 footer a img{
-    width:  50px;
-    margin-top: -15px;
-    position: absolute;
-    margin-left: -15px;
+    width: 50px;
+    margin-top: 10px;
  }
  footer p{
     margin: 10px 0;
