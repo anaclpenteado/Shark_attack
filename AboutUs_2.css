@@ -46,10 +46,10 @@ h1{
     text-align: center;
 }
     article h2 {
-    color: #ff3333;
+    color: rgb(209, 4, 4);
     font-size: 1.8em;
     margin-bottom: 10px;
-    border-bottom: 2px solid #ff3333;
+    border-bottom: 2px solid rgb(209, 4, 4);
     padding-bottom: 5px;
     }
 
@@ -64,12 +64,6 @@ h1{
     margin: 20px auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 1;
-}
-   header img {
-    width: 150px;
-    display: block;
-    margin: 0 auto 15px;
-    text-align: center;
 }
 
 header img {
@@ -86,7 +80,6 @@ header ul {
     gap: 30px;
     padding: 0;
 }
-
 
 header a {
     color: rgb(209, 4, 4);
@@ -112,20 +105,14 @@ header a:hover{
     display:none
 }
 
-.menu-container ul li:hover .dropdown_menu2{
-    display:block;
-    margin-bottom: 8px;
-    position:absolute;
-}
-
 .menu-container ul li:hover .dropdown_menu{
     display:block;
-   margin-left:0px;
+    margin-left:0px;
     margin-bottom: 8px;
     position:absolute;
 }
 
-    
+   
     /* Paragraph Styling */
     article p {
     margin: 10px 0;
@@ -140,8 +127,8 @@ header a:hover{
     }
     
     article a:hover {
-    color: #ff3333;
-    border-bottom-color: #ff3333;
+    color: rgb(209, 4, 4);
+    border-bottom-color: rgb(209, 4, 4);
     }
     
     /* Image Styling within the Article */
